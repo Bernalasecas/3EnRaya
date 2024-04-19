@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    
+
+    <div id="cabeza">
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+
+    <div id="principal">
+        <div id="top">
+            <div class="casilla" id="topLeft" onclick="jugar('topLeft')"> </div>
+            <div class="casilla" id="topMid" onclick="jugar('topMid')"> </div>
+            <div class="casilla" id="topRight" onclick="jugar('topRight')"> </div>
+        </div>
+        <div id="mid">
+            <div class="casilla" id="midLeft" onclick="jugar('midLeft')"> </div>
+            <div class="casilla" id="midMid" onclick="jugar('midMid')"> </div>
+            <div class="casilla" id="midRight" onclick="jugar('midRight')"> </div>
+        </div>
+        <div id="bot">
+            <div class="casilla" id="botLeft" onclick="jugar('botLeft')"> </div>
+            <div class="casilla" id="botMid" onclick="jugar('botMid')"> </div>
+            <div class="casilla" id="botRight" onclick="jugar('botRight')"> </div>
+        </div>
+    </div>
+
+    <div id="button">
+        <input type="button" value="Restart">
+    </div>
+
 </body>
 </html>
