@@ -11,6 +11,30 @@
     border: solid 2px black;
     border-radius: 10px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circulo{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: black solid 10px;
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+}
+
+.cuadrado{
+    width: 40px;
+    height: 40px;
+    border: black solid 8px;
+    background-color: transparent;
+    rotate: 45deg;
+    position: absolute;
+    z-index: -1;
 }
 
 .casilla:hover{
