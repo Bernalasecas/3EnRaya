@@ -1,12 +1,12 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(170, 215, 226);
+    background-color: #638357;
 }
 
 .casilla{
     width: 120px;
     height: 120px;
-    background-color: rgb(162, 175, 101);
+    background-color: #8eb4cf;
     margin: 10px;
     border: solid 2px black;
     border-radius: 10px;
@@ -21,24 +21,22 @@
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    border: black solid 10px;
+    border: #366586 solid 10px;
     background-color: transparent;
-    position: absolute;
-    z-index: -1;
+    display: none;
 }
 
 .cuadrado{
     width: 40px;
     height: 40px;
-    border: black solid 8px;
+    border: #7c684c solid 8px;
     background-color: transparent;
     rotate: 45deg;
-    position: absolute;
-    z-index: -1;
+    display: none;
 }
 
 .casilla:hover{
-    background-color: rgb(199, 77, 83);
+    background-color: #794848;
 }
 
 #principal{
@@ -66,8 +64,9 @@ input{
     width: 90px;
     height: 35px;
     border-radius: 7px;
+    background-color: #73818b;
 }
 
 input:hover{
-    background-color: rgb(162, 175, 101)
+    background-color: #794848;
 }
